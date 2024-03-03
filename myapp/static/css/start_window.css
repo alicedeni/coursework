@@ -1,0 +1,116 @@
+* {
+    font-family: 'Cascadia', monospace;
+    margin: 0;
+}
+
+header {
+    position: fixed; 
+    width: 100%; 
+    height: 70px;
+    background-color: #5c6baa;
+}
+
+body {
+    background-color: #f6f7fa;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #e5e8fa;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    padding-right: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+h4 {
+    margin: 10px 0px 10px 0px;
+}
+
+.inspiration-content {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #a8afd6;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    color: #f6f7fa;
+}
+
+.inspiration-content p {
+    font-size: 24px;
+}
+
+.description {
+    padding-top: 80px;
+}
+
+.description_block {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    gap: 100px;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.to {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #a8afd6;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main {
+    padding: 1px 160px 60px 160px;
+}
+
+#first_img {
+    width: 20%;
+    border: solid 10px #848ebc;
+}
+
+#tasks, #theory, #contacts{
+    padding-top: 70px; 
+}

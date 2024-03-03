@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Теория информации</title>
+    <link rel="stylesheet" href="{% static 'css/task_window.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#transfer" class="menu_link">Передача информации</a></li>
+                    <li><a href="#logic" class="menu_link">Алгебра логики</a></li>
+                    <li><a href="#coding" class="menu_link">Теория кодирования</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="inspiration-content">
+        <h1>Решим задачки?</h1>
+        <p>.........</p>
+    </div>
+    <main>
+        <section id="transfer">
+            <h2 class="description">Передача информации</h2>
+            <div class="difficulty-list">
+                <a href="#base1" class="difficulty-link">Базовый уровень</a>
+                <a href="#main1" class="difficulty-link">Основной уровень</a>
+                <a href="#advanced1" class="difficulty-link">Продвинутый уровень</a>
+            </div>
+            <section id="#base1" class="level">
+                <h3>Базовый уровень</h3>
+                <section class="task-section">
+                    <h4>Задача 1:</h4>
+                    <p>Скорость передачи. Напишите программу, которая вычисляет скорость передачи информации в байт/секунда, зная обьем данных в Мбайт и время передачи в минутах.
+                        <br>Формат ввода:<br>  
+                        n - объем данных в Мбайт (целое число)<br>
+                        t - время передачи в минутах (целое число)
+                        <br>Формат вывода:<br> 
+                        v - скорость передачи информации в байт/секунда (дробное число)
+                        <br>Пример:
+                    </p>
+                    <div class="example">
+                        <p class="cell">100<br>5</p>
+                        <p class="cell">333.33</p>
+                    </div>
+                    <div>
+                        <p>Язык: </p>
+                        <select name="language-transfer" class="language-selection">
+                            <option value="python">Python</option>
+                            <option value="cpp">C++</option>
+                        </select>
+                    </div>
+                    <textarea class="code-input"></textarea>
+                    <button class="submit-button">Отправить на проверку</button>
+                </section>
+                <section class="task-section">
+                    <h4>Задача 2:</h4>
+                    <p>Эффективность системы. Напишите программу, которая вычисляет эфективность системы передачи информации.
+                        <br>Формат ввода:<br>  
+                        n – полезная нагрузка в Мбайт (целое число)<br>
+                        m – общий объем данных в Мбайт (целое число)
+                        <br>Формат вывода:<br> 
+                        p – процент эффективности сети (дробное число)
+                        <br>Пример:
+                    </p>
+                    <div class="example">
+                        <p class="cell">400<br>500</p>
+                        <p class="cell">80.0</p>
+                    </div>
+                    <div>
+                        <p>Язык: </p>
+                        <select name="language-transfer" class="language-selection">
+                            <option value="python">Python</option>
+                            <option value="cpp">C++</option>
+                        </select>
+                    </div>
+                    <textarea class="code-input"></textarea>
+                    <button class="submit-button">Отправить на проверку</button>
+                </section>
+            </section> 
+        </section>
+        <section id="logic">
+            <h2 class="description">Алгебра логики</h2>
+        </section>
+        <section id="coding">
+            <h2 class="description">Теория кодирования</h2>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</html>
